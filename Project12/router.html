@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>router</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- <div v-if="show===0">Page1</div>
+        <div v-if="show===1">Page1</div> -->
+        <p>
+            <router-link class="link" :to="{name:'home'}">Home</router-link>
+            <router-link class="link" :to="{name:'page1'}">Page1</router-link>
+            <router-link class="link" :to="{name:'page2'}">Page2</router-link>
+            <router-link class="link" :to="{name:'userhome'}">User</router-link>
+            <button @click="ClickHandler">User</button>
+            <button @click="$router.go(-1)">PageUp</button>
+            <button @click="$router.go(1)">PageDown</button>
+        </p>
+
+        <router-view></router-view>
+    </div>
+    <script src="vue.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.4.1/vue-router.js' integrity='sha512-zDC2/oqUOwDCmHNYfh2LlMhPQdRf5oVTSnIiJG5QnK2WiIfHXVsuyjn4VG+E9STrlVUoVyuS0z0M1cIVjJWO+A==' crossorigin='anonymous'></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
