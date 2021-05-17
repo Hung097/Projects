@@ -39,7 +39,7 @@
             getJsonData() {
                 axios({
                     methods: 'get',
-                    url: 'https://hung097.github.io/Test/json/aqi.json'
+                    url: 'https://hung097.github.io/Projects/json/aqi.json'
                 }).then((res) => {
                     let temp = JSON.stringify(res.data.records)
                     temp = temp.replace(/PM2./ig, 'PM2_')
