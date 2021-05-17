@@ -853,7 +853,7 @@
             async getJsonData(){
                 await axios({
                     method: 'get',
-                    url: 'https://hung097.github.io/Test/json/product.json'
+                    url: 'https://hung097.github.io/Projects/Project15/css/product.json'
                 }).then(res => {
                     if(window.localStorage.getItem('Product') === null){
                         const originalData = res["data"]["Product"]
