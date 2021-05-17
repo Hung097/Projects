@@ -357,7 +357,7 @@
         <div id="product" v-if="productList!=null">
             <!-- 商品標題 -->
             <div class="container-fulid view">
-                <img src="/img/product-view.png" class="w-100 h-100" alt="">
+                <img src="img/product-view.png" class="w-100 h-100" alt="">
                 <div class="title">
                     {{title}}
                 </div>
