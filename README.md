@@ -6,7 +6,7 @@ Vue
 簡易卡片左右滑動 https://hung097.github.io/Projects/Project14/card.html</br>
 圈圈叉叉小遊戲 https://hung097.github.io/Projects/Project6/circleCross.html</br>
 瘋狂樂透機 https://hung097.github.io/Projects/Project7/lottery.html</br>
-AQI空氣指標 https://hung097.github.io/Projects/Project8/api.html</br>
+AQI空氣指標 https://hung097.github.io/Projects/Project8/aqi.html</br>
 BMI計算機 https://hung097.github.io/Projects/Project9/bmi.html</br>
 打地鼠小遊戲 https://hung097.github.io/Projects/Project10/HitGopher.html</br>
 TodoList https://hung097.github.io/Projects/Project11/todoList.html<br>
