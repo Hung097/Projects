@@ -1062,8 +1062,8 @@
                         residualText: '庫存: ',
                         footerText: '結帳去',
                         footerContent1: '消費滿999免運費',
-                        footerContent2: '小計: ',
-                        footerContent3: '運費: $ '
+                        footerContent2: '運費: $ ',
+                        footerContent3: '小計: '
                     },
                     orderModal:{
                         title: '我的訂單',
