@@ -174,7 +174,7 @@
                 this.textStatus = emailRule.test(value)
             }
         },
-        beforeDestroy(){
+        unmounted(){
             clearInterval(timer)
         }
     }
@@ -438,11 +438,11 @@
             <!-- 加入收藏訊息提示 -->
             <div class="toast shadow position-fixed top-50 start-50" :class="{show:toast,hide:!toast}" role="alert" aria-live="assertive" aria-atomic="true">
                 <div class="d-flex" style="font-size: 30px;">
-                    <div class="toast-body" v-show="!toast_status">
+                    <div class="toast-body" v-show="toast_status">
                         <i class="fa fa-window-close-o" style="color:red;" aria-hidden="true"></i>
                         {{info.message.favoriteAdd}}
                     </div>
-                    <div class="toast-body" v-show="toast_status">
+                    <div class="toast-body" v-show="!toast_status">
                         <i class="fa fa-check-square-o" style="color:green;" aria-hidden="true"></i>
                         {{info.message.favoriteCancle}}
                     </div>
