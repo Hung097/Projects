@@ -156,6 +156,7 @@
                 setTimeout(move,1)
             },
             typeAnimation(){
+                this.clearAllTimer()
                 let end = 0
                 timer = setInterval(()=>{
                     if(end > this.contentAll.length){
@@ -167,6 +168,10 @@
                     end++
                     this.content = this.contentAll.slice(0,end)
                 },200)
+            },
+            clearAllTimer(){
+                clearInterval(timer)
+                clearTimeout(timerOut)
             }
         },
         watch:{
@@ -176,8 +181,7 @@
             }
         },
         unmounted(){
-            clearInterval(timer)
-            clearTimeout(timerOut)
+            this.clearAllTimer()
         }
     }
     const Home = {
