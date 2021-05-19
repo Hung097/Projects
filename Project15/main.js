@@ -167,6 +167,7 @@
                     }
                     end++
                     this.content = this.contentAll.slice(0,end)
+                    console.log('1')
                 },200)
             },
             clearAllTimer(){
