@@ -183,6 +183,7 @@
         },
         beforeDestroy(){
             this.clearAllTimer()
+            console.log('2')
         }
     }
     const Home = {
