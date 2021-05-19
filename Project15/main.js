@@ -1,5 +1,6 @@
 ;(function(Vue){
     let timer
+    let timerOut
     const HomeView = {
         data(){
             return {
@@ -159,7 +160,7 @@
                 timer = setInterval(()=>{
                     if(end > this.contentAll.length){
                         clearInterval(timer)
-                        setTimeout(() => {
+                        timerOut = setTimeout(() => {
                             this.typeAnimation()
                         },1500)
                     }
@@ -176,6 +177,7 @@
         },
         unmounted(){
             clearInterval(timer)
+            clearTimeout(timerOut)
         }
     }
     const Home = {
