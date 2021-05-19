@@ -181,7 +181,7 @@
                 this.textStatus = emailRule.test(value)
             }
         },
-        unmounted(){
+        beforeDestroy(){
             this.clearAllTimer()
         }
     }
