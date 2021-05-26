@@ -11,7 +11,7 @@ BMI計算機 https://hung097.github.io/Projects/Project9/bmi.html</br>
 打地鼠小遊戲 https://hung097.github.io/Projects/Project10/HitGopher.html</br>
 TodoList https://hung097.github.io/Projects/Project11/todoList.html<br>
 
-# 切版
+# 切版練習
 浪浪之家 https://hung097.github.io/Projects/Project-2-1/Home.html</br>
 稀飯排版 https://hung097.github.io/Projects/Project3/Home.html</br><br>
 
